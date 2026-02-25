@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "Steve Creative | Digital Agency",
+    "description": "We transform brands through stunning web development and data-driven digital marketing strategies that deliver results."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "Award-Winning Digital Agency",
+    "title1": "We Build",
+    "titleHighlight": "Digital Experiences",
+    "title2": "That Drive Growth",
+    "description": "Steve Creative is a full-service digital agency specializing in web development and marketing strategies that transform brands and accelerate business growth.",
+    "cta1": "Start Your Project",
+    "cta2": "View Our Work",
+    "stat1Label": "Projects Delivered",
+    "stat1Value": "200+",
+    "stat2Label": "Client Satisfaction",
+    "stat2Value": "98%",
+    "stat3Label": "Years of Experience",
+    "stat3Value": "10+"
+  },
+  "services": {
+    "badge": "What We Do",
+    "title": "Services That",
+    "titleHighlight": "Transform",
+    "title2": "Your Business",
+    "description": "We combine cutting-edge technology with creative strategy to deliver solutions that generate real, measurable results.",
+    "web": {
+      "title": "Web Development",
+      "description": "Custom websites and web applications built with modern technologies. From responsive landing pages to complex e-commerce platforms.",
+      "features": ["Next.js & React", "E-commerce Solutions", "Progressive Web Apps", "Custom CMS"]
+    },
+    "marketing": {
+      "title": "Digital Marketing",
+      "description": "Data-driven marketing strategies that increase your online visibility and convert visitors into loyal customers.",
+      "features": ["SEO & SEM", "Social Media Management", "Content Marketing", "Email Campaigns"]
+    },
+    "branding": {
+      "title": "Brand Strategy",
+      "description": "Build a powerful brand identity that resonates with your target audience and sets you apart from the competition.",
+      "features": ["Visual Identity", "Brand Guidelines", "Logo Design", "Brand Positioning"]
+    },
+    "analytics": {
+      "title": "Analytics & Optimization",
+      "description": "Measure, analyze, and optimize every aspect of your digital presence for maximum ROI and continuous growth.",
+      "features": ["Performance Tracking", "A/B Testing", "Conversion Optimization", "Custom Dashboards"]
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "User-centered design that creates intuitive, beautiful interfaces driving engagement and satisfaction.",
+      "features": ["User Research", "Wireframing", "Prototyping", "Usability Testing"]
+    },
+    "consulting": {
+      "title": "Digital Consulting",
+      "description": "Strategic guidance to help your business navigate the digital landscape and make informed technology decisions.",
+      "features": ["Technology Audit", "Digital Strategy", "Growth Planning", "Tech Stack Advisory"]
+    }
+  },
+  "about": {
+    "badge": "Who We Are",
+    "title": "A Team of",
+    "titleHighlight": "Passionate",
+    "title2": "Digital Creators",
+    "description": "Founded in 2016, Steve Creative has grown from a small design studio into a full-service digital agency trusted by brands worldwide.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower businesses with innovative digital solutions that drive meaningful growth and create lasting impact in the digital landscape."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the most trusted creative partner for ambitious brands looking to dominate their digital presence."
+    },
+    "values": {
+      "title": "Our Values",
+      "innovation": "Innovation First",
+      "quality": "Quality Obsessed",
+      "transparency": "Full Transparency",
+      "results": "Results Driven"
+    }
+  },
+  "portfolio": {
+    "badge": "Our Work",
+    "title": "Featured",
+    "titleHighlight": "Projects",
+    "description": "A selection of our most impactful projects that showcase our expertise across web development and digital marketing.",
+    "viewProject": "View Project",
+    "projects": {
+      "1": {
+        "title": "NovaTech E-Commerce",
+        "category": "Web Development",
+        "description": "Complete e-commerce platform redesign resulting in 340% increase in online sales."
+      },
+      "2": {
+        "title": "GreenLife Campaign",
+        "category": "Digital Marketing",
+        "description": "Integrated marketing campaign that reached 2M+ users and generated 50K qualified leads."
+      },
+      "3": {
+        "title": "FinanceHub App",
+        "category": "Web Application",
+        "description": "Full-stack fintech application with real-time analytics dashboard and secure transactions."
+      },
+      "4": {
+        "title": "Luxe Hotels Brand",
+        "category": "Branding & Web",
+        "description": "Complete brand identity and website for a luxury hotel chain across 12 countries."
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Client Stories",
+    "title": "What Our",
+    "titleHighlight": "Clients",
+    "title2": "Say",
+    "items": {
+      "1": {
+        "quote": "Steve Creative transformed our online presence completely. Our revenue increased 200% within six months of launching the new website.",
+        "author": "Sarah Mitchell",
+        "role": "CEO, NovaTech"
+      },
+      "2": {
+        "quote": "The team's strategic approach to our digital marketing was game-changing. They don't just execute — they think like business partners.",
+        "author": "James Rodriguez",
+        "role": "CMO, GreenLife"
+      },
+      "3": {
+        "quote": "Exceptional quality and attention to detail. The web application they built handles millions of transactions seamlessly.",
+        "author": "Michael Chen",
+        "role": "CTO, FinanceHub"
+      }
+    }
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Proven",
+    "titleHighlight": "Process",
+    "steps": {
+      "1": {
+        "title": "Discovery",
+        "description": "We dive deep into your business, audience, and goals to build a strategic foundation."
+      },
+      "2": {
+        "title": "Strategy",
+        "description": "We craft a tailored plan with clear milestones, KPIs, and deliverables."
+      },
+      "3": {
+        "title": "Creation",
+        "description": "Our team designs and develops your solution with precision and creativity."
+      },
+      "4": {
+        "title": "Launch & Optimize",
+        "description": "We launch, monitor, and continuously optimize for maximum performance."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to",
+    "titleHighlight": "Elevate",
+    "title2": "Your Brand?",
+    "description": "Let's discuss how we can help your business grow with a tailored digital strategy.",
+    "button": "Schedule a Free Consultation"
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Let's Start",
+    "titleHighlight": "Something Great",
+    "description": "Ready to transform your digital presence? Fill out the form and we'll get back to you within 24 hours.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company",
+      "service": "Service Interested In",
+      "serviceOptions": {
+        "web": "Web Development",
+        "marketing": "Digital Marketing",
+        "branding": "Brand Strategy",
+        "consulting": "Digital Consulting",
+        "other": "Other"
+      },
+      "budget": "Budget Range",
+      "budgetOptions": {
+        "small": "$5K - $15K",
+        "medium": "$15K - $50K",
+        "large": "$50K - $100K",
+        "enterprise": "$100K+"
+      },
+      "message": "Tell us about your project",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll be in touch soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "email": "hello@stevecreative.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Creative Ave, San Francisco, CA 94105",
+      "hours": "Mon - Fri: 9:00 AM - 6:00 PM PST"
+    }
+  },
+  "footer": {
+    "description": "A full-service digital agency crafting stunning web experiences and data-driven marketing strategies.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "webDev": "Web Development",
+    "digitalMarketing": "Digital Marketing",
+    "brandStrategy": "Brand Strategy",
+    "uiuxDesign": "UI/UX Design",
+    "aboutUs": "About Us",
+    "ourWork": "Our Work",
+    "careers": "Careers",
+    "blog": "Blog",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter for the latest insights.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "copyright": "© 2026 Steve Creative. All rights reserved."
+  }
+}

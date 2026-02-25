@@ -198,10 +198,11 @@
       "error": "Algo salió mal. Por favor, inténtalo de nuevo."
     },
     "info": {
-      "email": "hello@stevecreative.com",
-      "phone": "+1 (555) 123-4567",
-      "address": "123 Creative Ave, San Francisco, CA 94105",
-      "hours": "Lun - Vie: 9:00 AM - 6:00 PM PST"
+      "email": "Hola@stevecreative.cl",
+      "phoneCL": "+56 2 2754 1639",
+      "phoneUS": "+1 (346) 256-5888",
+      "addressUS": "Houston, TX",
+      "addressCL": "Las Condes, Santiago"
     }
   },
   "footer": {

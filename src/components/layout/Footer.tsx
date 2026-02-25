@@ -105,22 +105,33 @@ export function Footer() {
 
             <div className="mt-8 space-y-3">
               <a
-                href="mailto:hello@stevecreative.com"
+                href="mailto:Hola@stevecreative.cl"
                 className="flex items-center gap-2 text-sm text-dark-400 hover:text-primary-400 transition-colors"
               >
                 <Mail className="h-4 w-4" />
-                hello@stevecreative.com
+                Hola@stevecreative.cl
               </a>
               <a
-                href="tel:+15551234567"
+                href="tel:+56227541639"
                 className="flex items-center gap-2 text-sm text-dark-400 hover:text-primary-400 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                +1 (555) 123-4567
+                +56 2 2754 1639
+              </a>
+              <a
+                href="tel:+13462565888"
+                className="flex items-center gap-2 text-sm text-dark-400 hover:text-primary-400 transition-colors"
+              >
+                <Phone className="h-4 w-4" />
+                +1 (346) 256-5888
               </a>
               <div className="flex items-center gap-2 text-sm text-dark-400">
                 <MapPin className="h-4 w-4" />
-                San Francisco, CA
+                Houston, TX
+              </div>
+              <div className="flex items-center gap-2 text-sm text-dark-400">
+                <MapPin className="h-4 w-4" />
+                Las Condes, Santiago
               </div>
             </div>
           </div>

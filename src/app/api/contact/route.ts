@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
     // Example with Resend:
     // await resend.emails.send({
     //   from: 'website@stevecreative.com',
-    //   to: 'hello@stevecreative.com',
+    //   to: 'Hola@stevecreative.cl',
     //   subject: `New inquiry from ${body.name}`,
     //   html: `...`,
     // });

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/routing";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Globe } from "lucide-react";
@@ -18,6 +18,7 @@ const navLinks = [
 
 export function Navbar() {
   const t = useTranslations("nav");
+  const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
   const [scrolled, setScrolled] = useState(false);
@@ -30,9 +31,7 @@ export function Navbar() {
   }, []);
 
   const toggleLocale = () => {
-    const currentLocale =
-      window.location.pathname.split("/")[1] === "es" ? "es" : "en";
-    const newLocale = currentLocale === "en" ? "es" : "en";
+    const newLocale = locale === "en" ? "es" : "en";
     router.replace(pathname, { locale: newLocale });
   };
 
@@ -87,10 +86,7 @@ export function Navbar() {
               >
                 <Globe className="h-4 w-4" />
                 <span className="uppercase font-medium">
-                  {typeof window !== "undefined" &&
-                  window.location.pathname.split("/")[1] === "es"
-                    ? "EN"
-                    : "ES"}
+                  {locale === "es" ? "EN" : "ES"}
                 </span>
               </button>
               <Button href="#contact" size="sm">

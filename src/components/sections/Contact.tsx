@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { Send, Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Send, Mail, Phone, MapPin } from "lucide-react";
 import {
   Section,
   Container,
@@ -65,10 +65,11 @@ export function Contact() {
   ];
 
   const contactInfo = [
-    { icon: Mail, text: t("info.email"), href: "mailto:hello@stevecreative.com" },
-    { icon: Phone, text: t("info.phone"), href: "tel:+15551234567" },
-    { icon: MapPin, text: t("info.address"), href: "#" },
-    { icon: Clock, text: t("info.hours"), href: "#" },
+    { icon: Mail, text: t("info.email"), href: "mailto:Hola@stevecreative.cl" },
+    { icon: Phone, text: t("info.phoneCL"), href: "tel:+5622754163" },
+    { icon: Phone, text: t("info.phoneUS"), href: "tel:+13462565888" },
+    { icon: MapPin, text: t("info.addressUS"), href: "#" },
+    { icon: MapPin, text: t("info.addressCL"), href: "#" },
   ];
 
   return (
@@ -199,7 +200,7 @@ export function Contact() {
               <div className="absolute inset-0 bg-linear-to-br from-primary-900/30 to-dark-900/50 flex items-center justify-center">
                 <div className="text-center">
                   <MapPin className="h-8 w-8 text-primary-400 mx-auto mb-2" />
-                  <p className="text-sm text-dark-400">San Francisco, CA</p>
+                  <p className="text-sm text-dark-400">Houston, TX · Las Condes, Santiago</p>
                 </div>
               </div>
             </div>

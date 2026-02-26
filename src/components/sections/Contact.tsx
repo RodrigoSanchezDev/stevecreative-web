@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { Send, Mail, Phone, MapPin } from "lucide-react";
 import {
@@ -16,6 +16,7 @@ import {
 
 export function Contact() {
   const t = useTranslations("contact");
+  const locale = useLocale();
   const [status, setStatus] = useState<
     "idle" | "sending" | "success" | "error"
   >("idle");
@@ -25,7 +26,10 @@ export function Contact() {
     setStatus("sending");
 
     const formData = new FormData(e.currentTarget);
-    const data = Object.fromEntries(formData);
+    const data = {
+      ...Object.fromEntries(formData),
+      locale,
+    };
 
     try {
       const res = await fetch("/api/contact", {
@@ -103,14 +107,14 @@ export function Contact() {
                 <Input
                   label={t("form.name")}
                   name="name"
-                  placeholder="John Doe"
+                  placeholder={t("form.namePlaceholder")}
                   required
                 />
                 <Input
                   label={t("form.email")}
                   name="email"
                   type="email"
-                  placeholder="john@company.com"
+                  placeholder={t("form.emailPlaceholder")}
                   required
                 />
               </div>
@@ -118,7 +122,7 @@ export function Contact() {
               <Input
                 label={t("form.company")}
                 name="company"
-                placeholder="Acme Inc."
+                placeholder={t("form.companyPlaceholder")}
               />
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

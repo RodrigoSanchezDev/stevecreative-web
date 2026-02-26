@@ -190,8 +190,11 @@
     "description": "Ready to transform your digital presence? Fill out the form and we'll get back to you within 24 hours.",
     "form": {
       "name": "Full Name",
+      "namePlaceholder": "Your full name",
       "email": "Email Address",
+      "emailPlaceholder": "you@yourcompany.com",
       "company": "Company",
+      "companyPlaceholder": "Your company name",
       "service": "Service Interested In",
       "serviceOptions": {
         "web": "Web Development",

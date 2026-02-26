@@ -3,7 +3,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui";
-import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -26,23 +26,9 @@ export function Footer() {
                 Steve<span className="text-primary-400">Creative</span>
               </span>
             </a>
-            <p className="text-dark-400 leading-relaxed mb-8 max-w-sm">
+            <p className="text-dark-400 leading-relaxed max-w-sm">
               {t("description")}
             </p>
-            <div className="flex gap-4">
-              {["twitter", "linkedin", "instagram", "dribbble"].map(
-                (social) => (
-                  <a
-                    key={social}
-                    href="#"
-                    className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-dark-400 hover:bg-primary-500/20 hover:text-primary-400 hover:border-primary-500/30 transition-all duration-300"
-                  >
-                    <span className="sr-only">{social}</span>
-                    <ArrowUpRight className="h-4 w-4" />
-                  </a>
-                )
-              )}
-            </div>
           </div>
 
           {/* Services */}
@@ -108,30 +94,16 @@ export function Footer() {
                 href="mailto:Hola@stevecreative.cl"
                 className="flex items-center gap-2 text-sm text-dark-400 hover:text-primary-400 transition-colors"
               >
-                <Mail className="h-4 w-4" />
+                <Mail className="h-4 w-4 shrink-0" />
                 Hola@stevecreative.cl
               </a>
-              <a
-                href="tel:+56227541639"
-                className="flex items-center gap-2 text-sm text-dark-400 hover:text-primary-400 transition-colors"
-              >
-                <Phone className="h-4 w-4" />
-                +56 2 2754 1639
-              </a>
-              <a
-                href="tel:+13462565888"
-                className="flex items-center gap-2 text-sm text-dark-400 hover:text-primary-400 transition-colors"
-              >
-                <Phone className="h-4 w-4" />
-                +1 (346) 256-5888
-              </a>
               <div className="flex items-center gap-2 text-sm text-dark-400">
-                <MapPin className="h-4 w-4" />
-                Houston, TX
+                <Phone className="h-4 w-4 shrink-0" />
+                <span>+56 2 2754 1639 <span className="text-dark-500">·</span> +1 (346) 256-5888</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-dark-400">
-                <MapPin className="h-4 w-4" />
-                Las Condes, Santiago
+                <MapPin className="h-4 w-4 shrink-0" />
+                <span>Houston, TX <span className="text-dark-500">·</span> Las Condes, Santiago</span>
               </div>
             </div>
           </div>

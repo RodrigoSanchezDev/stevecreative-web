@@ -93,24 +93,40 @@
     "viewProject": "Ver Proyecto",
     "projects": {
       "1": {
-        "title": "NovaTech E-Commerce",
+        "title": "Anrabess",
         "category": "Desarrollo Web",
-        "description": "Rediseño completo de plataforma e-commerce que resultó en un aumento del 340% en ventas online."
+        "description": "Plataforma e-commerce para una de las tiendas líderes de moda online, ofreciendo ropa de alta calidad desde 2012.",
+        "longDescription": "Anrabess es una de las tiendas online líderes con ropa de alta calidad desde 2012. Su objetivo es ofrecer a los amantes de la moda una serie de estilos más a la vanguardia. Construimos una experiencia e-commerce moderna y de alto rendimiento que exhibe su extenso catálogo con navegación fluida, filtros avanzados y un proceso de compra optimizado que impulsa las conversiones.",
+        "services": "Desarrollo E-commerce, Diseño UI/UX, Optimización de Rendimiento",
+        "url": "https://shopanrabess.com/"
       },
       "2": {
-        "title": "Campaña GreenLife",
-        "category": "Marketing Digital",
-        "description": "Campaña de marketing integrada que alcanzó 2M+ usuarios y generó 50K leads cualificados."
+        "title": "The 95 Cals Bar",
+        "category": "Campaña de Marketing",
+        "description": "Campaña de lanzamiento que convirtió una marca en el spot más popular de Ciudad de México, generando gran impacto en redes sociales.",
+        "longDescription": "Diseñamos, junto a la marca, el primer bar de 95 calorías en Ciudad de México. Convertimos The 95 Cals Bar en un hot spot que generó grandes conversaciones en la ciudad y en redes sociales a través de influencers. La campaña combinó marketing experiencial con una presencia digital estratégica, creando un buzz auténtico que se tradujo en tráfico real y reconocimiento de marca en toda la región.",
+        "services": "Estrategia de Campaña, Marketing de Influencers, Redes Sociales, Marketing Experiencial",
+        "url": ""
       },
       "3": {
-        "title": "FinanceHub App",
-        "category": "Aplicación Web",
-        "description": "Aplicación fintech full-stack con dashboard de analítica en tiempo real y transacciones seguras."
+        "title": "West Travel",
+        "category": "Plataforma SaaS",
+        "description": "Plataforma SaaS personalizada para una agencia de viajes en Utah para gestionar viajes, pagos de clientes y operaciones con proveedores.",
+        "longDescription": "West Travel es una plataforma SaaS integral construida para una agencia de viajes en Utah. El sistema optimiza la gestión de viajes, reservas de clientes, pagos y relaciones con proveedores desde un solo panel. Diseñamos y desarrollamos una aplicación full-stack robusta con acceso basado en roles, seguimiento de pagos en tiempo real, facturación automatizada e informes detallados — permitiendo a la agencia operar más eficientemente y escalar su negocio.",
+        "services": "Desarrollo Full-Stack, Arquitectura SaaS, Integración de Pagos, Diseño UX",
+        "url": ""
       },
       "4": {
-        "title": "Luxe Hotels Marca",
-        "category": "Branding y Web",
-        "description": "Identidad de marca completa y sitio web para una cadena hotelera de lujo en 12 países."
+        "title": "Verifone",
+        "category": "PPC, Paid Social y Creativo",
+        "description": "Campaña de generación de leads que redujo dramáticamente el Costo Por Lead mediante segmentación estratégica y optimización creativa.",
+        "longDescription": "Verifone proporciona tecnología para transacciones de pago electrónico, ayudando a empresas a resolver los desafíos de pago más complejos del mundo. Fuimos encargados de generar leads relevantes para su terminal de pago portátil, limitando el desperdicio y reduciendo su costo por lead. Creamos perfiles detallados de compradores y utilizamos las capacidades de segmentación de Meta para alcanzar audiencias específicas. Al separar audiencias con creatividades adaptadas que destacaban KPIs únicos para las necesidades de cada segmento, logramos control granular y nos adaptamos a la estacionalidad de cada industria.",
+        "services": "PPC, Paid Social, Estrategia Creativa, Segmentación de Audiencias",
+        "url": "",
+        "objective": "Generar leads relevantes para su terminal de pago portátil.",
+        "challenge": "Alcanzar audiencias relevantes, limitar el desperdicio y reducir el costo actual por lead con segmentación detallada para una audiencia muy específica.",
+        "strategy": "Creamos diferentes perfiles de compradores para construir audiencias usando las capacidades de segmentación de Meta. Implementamos una segmentación que permitió pruebas y aprendizaje mientras impulsaba resultados. Transicionamos a la nueva estructura de manera gradual para no afectar la fase de aprendizaje.",
+        "results": "Desde la incorporación del cliente en noviembre, vimos una disminución constante en el costo por lead, destacando el impacto de una estructura bien planificada desde el nivel de campaña hasta el creativo."
       }
     }
   },
@@ -121,19 +137,19 @@
     "title2": "",
     "items": {
       "1": {
-        "quote": "Steve Creative transformó completamente nuestra presencia online. Nuestros ingresos aumentaron un 200% en los primeros seis meses tras el lanzamiento del nuevo sitio web.",
-        "author": "Sarah Mitchell",
-        "role": "CEO, NovaTech"
+        "quote": "Steve Creative construyó toda nuestra plataforma e-commerce desde cero. Las ventas se han disparado desde el lanzamiento, y la experiencia de usuario que diseñaron mantiene a los clientes regresando.",
+        "author": "Director de Marketing",
+        "role": "Anrabess"
       },
       "2": {
-        "quote": "El enfoque estratégico del equipo en nuestro marketing digital fue revolucionario. No solo ejecutan — piensan como socios de negocio.",
-        "author": "James Rodriguez",
-        "role": "CMO, GreenLife"
+        "quote": "La campaña de lanzamiento de The 95 Cals Bar superó todas las expectativas. Convirtieron nuestro concepto en el spot más popular de Ciudad de México con una estrategia brillante de influencers y ejecución creativa.",
+        "author": "Gerente de Marca",
+        "role": "The 95 Cals Bar"
       },
       "3": {
-        "quote": "Calidad excepcional y atención al detalle. La aplicación web que construyeron maneja millones de transacciones sin problemas.",
-        "author": "Michael Chen",
-        "role": "CTO, FinanceHub"
+        "quote": "La plataforma SaaS que construyeron para nuestra agencia de viajes ha optimizado completamente nuestras operaciones. Seguimiento de pagos, gestión de proveedores — todo en un solo lugar. Un cambio total.",
+        "author": "Director de Operaciones",
+        "role": "West Travel"
       }
     }
   },

@@ -93,24 +93,40 @@
     "viewProject": "View Project",
     "projects": {
       "1": {
-        "title": "NovaTech E-Commerce",
+        "title": "Anrabess",
         "category": "Web Development",
-        "description": "Complete e-commerce platform redesign resulting in 340% increase in online sales."
+        "description": "E-commerce platform for one of the leading online fashion stores, delivering high-quality clothing since 2012.",
+        "longDescription": "Anrabess is one of the leading online stores with high quality clothing since 2012. Their goal is to provide fashion-loving customers with a series of more fashionable styles. We built a modern, high-performance e-commerce experience that showcases their extensive catalog with seamless navigation, advanced filtering, and an optimized checkout flow that drives conversions.",
+        "services": "E-commerce Development, UI/UX Design, Performance Optimization",
+        "url": "https://shopanrabess.com/"
       },
       "2": {
-        "title": "GreenLife Campaign",
-        "category": "Digital Marketing",
-        "description": "Integrated marketing campaign that reached 2M+ users and generated 50K qualified leads."
+        "title": "The 95 Cals Bar",
+        "category": "Marketing Campaign",
+        "description": "Launch campaign that turned a brand into the hottest spot in Mexico City, driving massive social media buzz.",
+        "longDescription": "We designed, together with the brand, the first 95-calorie bar in Mexico City. We turned The 95 Cals Bar into a hot spot that generated great conversations in the city and on social media through influencer partnerships. The campaign combined experiential marketing with a strategic digital presence, creating an authentic buzz that translated into real foot traffic and brand awareness across the region.",
+        "services": "Campaign Strategy, Influencer Marketing, Social Media, Experiential Marketing",
+        "url": ""
       },
       "3": {
-        "title": "FinanceHub App",
-        "category": "Web Application",
-        "description": "Full-stack fintech application with real-time analytics dashboard and secure transactions."
+        "title": "West Travel",
+        "category": "SaaS Platform",
+        "description": "Custom SaaS platform for a Utah-based travel agency to manage trips, client payments, and supplier operations.",
+        "longDescription": "West Travel is a comprehensive SaaS platform built for a travel agency based in Utah. The system streamlines the management of trips, client bookings, payments, and supplier relationships all from a single dashboard. We designed and developed a robust full-stack application with role-based access, real-time payment tracking, automated invoicing, and detailed reporting — empowering the agency to operate more efficiently and scale their business.",
+        "services": "Full-Stack Development, SaaS Architecture, Payment Integration, UX Design",
+        "url": ""
       },
       "4": {
-        "title": "Luxe Hotels Brand",
-        "category": "Branding & Web",
-        "description": "Complete brand identity and website for a luxury hotel chain across 12 countries."
+        "title": "Verifone",
+        "category": "PPC, Paid Social & Creative",
+        "description": "Lead generation campaign that dramatically reduced Cost Per Lead through strategic audience targeting and creative optimization.",
+        "longDescription": "Verifone provides technology for electronic payment transactions, helping businesses solve the world's most complex payment challenges. We were tasked with generating relevant leads for their portable card machine while limiting wastage and bringing down their cost per lead. We created detailed buyer personas and used Meta's targeting capabilities to reach specific audiences. By separating audiences with tailored creative that championed KPIs unique to each segment's needs, we achieved granular control and adapted to the differing seasonality of each industry.",
+        "services": "PPC, Paid Social, Creative Strategy, Audience Targeting",
+        "url": "",
+        "objective": "Generate relevant leads for their portable card machine.",
+        "challenge": "Reach relevant audiences, limit wastage, and bring down the current cost per lead with detailed targeting for a very specific audience.",
+        "strategy": "Created different buyer personas to build audiences using Meta's targeting capabilities. Implemented targeting that allowed for testing and learning while driving results. Transitioned to the new structure steadily to avoid affecting the learning phase.",
+        "results": "From onboarding the client in November, we saw a consistent decline in cost per lead, highlighting the impact of a well-planned structure from campaign level down to creative."
       }
     }
   },
@@ -121,19 +137,19 @@
     "title2": "Say",
     "items": {
       "1": {
-        "quote": "Steve Creative transformed our online presence completely. Our revenue increased 200% within six months of launching the new website.",
-        "author": "Sarah Mitchell",
-        "role": "CEO, NovaTech"
+        "quote": "Steve Creative built our entire e-commerce platform from scratch. Sales have skyrocketed since launch, and the user experience they designed keeps customers coming back.",
+        "author": "Marketing Director",
+        "role": "Anrabess"
       },
       "2": {
-        "quote": "The team's strategic approach to our digital marketing was game-changing. They don't just execute — they think like business partners.",
-        "author": "James Rodriguez",
-        "role": "CMO, GreenLife"
+        "quote": "The launch campaign for The 95 Cals Bar exceeded all expectations. They turned our concept into the hottest spot in Mexico City with brilliant influencer strategy and creative execution.",
+        "author": "Brand Manager",
+        "role": "The 95 Cals Bar"
       },
       "3": {
-        "quote": "Exceptional quality and attention to detail. The web application they built handles millions of transactions seamlessly.",
-        "author": "Michael Chen",
-        "role": "CTO, FinanceHub"
+        "quote": "The SaaS platform they built for our travel agency has completely streamlined our operations. Payment tracking, supplier management — everything in one place. Game changer.",
+        "author": "Operations Director",
+        "role": "West Travel"
       }
     }
   },
